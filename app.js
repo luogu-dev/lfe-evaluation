@@ -13,9 +13,11 @@ const PaintBoardSizeY = 100
 const AllowedColors = [0, 1, 2]
 
 let matrix = new Array(PaintBoardSizeY).fill(null).map(() => new Array(PaintBoardSizeX).fill(0))
-console.log(matrix)
+
 app.get('/', (req, res) => res.sendFile(__dirname + '/index.html'))
+
 app.get('/board', (req, res) => res.send(matrix.map(column => column.map(x => `${x}`).join('')).join('\n')))
+
 app.post('/paint', (req, res) => {
   const x = req.body.x
   const y = req.body.y
