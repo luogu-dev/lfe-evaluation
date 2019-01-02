@@ -1,0 +1,21 @@
+{
+  "name": "lfe-evaluation",
+  "version": "1.0.0",
+  "description": "Luogu Frontend Interview Evaluation Problem",
+  "main": "app.js",
+  "author": "Toto Lin <toto@linux.com>",
+  "license": "WTF License",
+  "scripts": {
+    "dev" : "npx babel-node app"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.2.3"
+  }
+}
