@@ -3,7 +3,7 @@
 ------------------
 ## 项目目标
 
-请您根据提供的后端接口，复刻 [洛谷冬日绘板](https://www.luogu.org/paintBoard) 的前端部分。
+请您根据提供的后端接口，复刻 [Bilibili 夏日绘板](https://live.bilibili.com/pages/1702/pixel-drawing) 的前端部分。
 
 绘板是一个 200x100 的画布，有黑白灰三种颜色可选，默认全黑。
 
